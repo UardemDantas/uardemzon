@@ -1,9 +1,13 @@
 import React from "react";
+import Header from "./Header";
 import "./Home.css";
 import Product from "./Product";
 
 function Home() {
+
   return (
+    <>
+    <Header />
     <div className="home">
       <img
         className="home_image"
@@ -31,7 +35,7 @@ function Home() {
       <Product
         id='666542'
         title= "ASUS TUF Dash 15 (2022) Gaming Laptop, 15.6” 144Hz FHD Display, Intel Core i7-12650H, GeForce RTX 3060, 16GB DDR5, 512GB SSD, Thunderbolt 4"
-        price={1.177}
+        price={1177.00}
         rating={5}
         image= 'https://m.media-amazon.com/images/I/71AGOX9MORL._AC_SL1500_.jpg'
         />
@@ -57,6 +61,7 @@ function Home() {
       </div>
       
     </div>
+    </>
   );
 }
 
