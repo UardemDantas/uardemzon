@@ -1,9 +1,9 @@
 import React from "react";
-import "./Checkout.css";
 import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 import Subtotal from "./Subtotal";
 import Header from "./Header";
+import "./Checkout.css";
 
 function Checkout() {
   
